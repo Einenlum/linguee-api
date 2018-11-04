@@ -24,7 +24,8 @@ $response = $linguee->translate('desert', 'eng', 'ger');
 
 // $response is an instance of Einenlum\LingueeApi\Response\DTO\Response
 echo $response->toJson();
-/**
+
+/*
 Prints:
 
 {
