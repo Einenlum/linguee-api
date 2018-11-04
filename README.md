@@ -271,3 +271,5 @@ Please, feel free to contribute and improve this project.
 ## License
 
 MIT
+
+Please respect Linguee's [terms and conditions](https://www.linguee.com/english-french/page/termsAndConditions.php).
