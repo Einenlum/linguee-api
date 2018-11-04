@@ -1,0 +1,189 @@
+{
+  "query": "\u5386",
+  "words": [
+    {
+      "term": "\u5386",
+      "additionalInformation": null,
+      "type": "noun",
+      "audio": null,
+      "translations": [
+        {
+          "term": "history",
+          "audio":
+            "https://www.linguee.com/mp3/EN_US/3c/3cd15f8f2940aff879df34df4e5c2cd1-101",
+          "type": "n",
+          "alternatives": [],
+          "examples": []
+        }
+      ]
+    },
+    {
+      "term": "\u5386",
+      "additionalInformation": null,
+      "type": "adjective",
+      "audio": null,
+      "translations": [
+        {
+          "term": "all",
+          "audio":
+            "https://www.linguee.com/mp3/EN_UK/a1/a181a603769c1f98ad927e7367c7aa51-300",
+          "type": "adj",
+          "alternatives": [],
+          "examples": []
+        }
+      ]
+    },
+    {
+      "term": "\u5386",
+      "additionalInformation": null,
+      "type": null,
+      "audio": null,
+      "translations": [
+        {
+          "term": "experience",
+          "audio":
+            "https://www.linguee.com/mp3/EN_US/d6/d6e047923b2b0f63a7a03c66074a0151-0",
+          "type": null,
+          "alternatives": [],
+          "examples": []
+        }
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "from": { "content": "\u7b80\u5386", "type": "n", "audio": null },
+      "tos": [
+        { "content": "resume", "type": "n" },
+        { "content": "CV", "type": "n" },
+        { "content": "biography", "type": "n" }
+      ]
+    },
+    {
+      "from": { "content": "\u4e8b\u5386", "type": "n", "audio": null },
+      "tos": [{ "content": "calendar", "type": "n" }]
+    },
+    {
+      "from": { "content": "\u5386\u53f2", "type": "pl", "audio": null },
+      "tos": [{ "content": "story", "type": "pl" }]
+    },
+    {
+      "from": { "content": "\u5386\u53f2", "type": "n", "audio": null },
+      "tos": [{ "content": "histories", "type": "pl" }]
+    },
+    {
+      "from": { "content": "\u5b66\u5386", "type": "pl", "audio": null },
+      "tos": [{ "content": "qualifications", "type": "pl" }]
+    },
+    {
+      "from": { "content": "\u5b66\u5386", "type": "n", "audio": null },
+      "tos": [
+        { "content": "education attainment", "type": "n" },
+        { "content": "education level", "type": "n" }
+      ]
+    },
+    {
+      "from": { "content": "\u7ecf\u5386", "type": "pl", "audio": null },
+      "tos": [{ "content": "experiences", "type": "pl" }]
+    },
+    {
+      "from": { "content": "\u7ecf\u5386", "type": "n", "audio": null },
+      "tos": [{ "content": "experience", "type": "n" }]
+    },
+    {
+      "from": { "content": "\u5386\u53f2\u4e0a", "type": "adv", "audio": null },
+      "tos": [{ "content": "historically", "type": "adv" }]
+    },
+    {
+      "from": { "content": "\u5c65\u5386", "type": "n", "audio": null },
+      "tos": [{ "content": "r\u00e9sum\u00e9", "type": "n" }]
+    },
+    {
+      "from": { "content": "\u5c65\u5386", "type": "pl", "audio": null },
+      "tos": [{ "content": "biographies", "type": "pl" }]
+    },
+    {
+      "from": { "content": "\u5386\u7a0b", "type": "n", "audio": null },
+      "tos": [{ "content": "journey", "type": "n" }]
+    },
+    {
+      "from": { "content": "\u65e5\u5386\u5e74", "type": "n", "audio": null },
+      "tos": [{ "content": "calendar year", "type": "n" }]
+    },
+    {
+      "from": { "content": "\u5c65\u5386", "type": "adj", "audio": null },
+      "tos": [{ "content": "biographical", "type": "adj" }]
+    },
+    {
+      "from": { "content": "\u5386\u9669", "type": "n", "audio": null },
+      "tos": [{ "content": "adventure", "type": "n" }]
+    },
+    {
+      "from": { "content": "\u661f\u5386", "type": "n", "audio": null },
+      "tos": [{ "content": "ephemeris", "type": "n" }]
+    },
+    {
+      "from": { "content": "\u5386\u53f2\u4e66", "type": "n", "audio": null },
+      "tos": [{ "content": "history book", "type": "n" }]
+    },
+    {
+      "from": { "content": "\u75c5\u5386", "type": "n", "audio": null },
+      "tos": [{ "content": "medical history", "type": "n" }]
+    },
+    {
+      "from": { "content": "\u5386\u5c4a", "type": "adj", "audio": null },
+      "tos": [{ "content": "successive", "type": "adj" }]
+    },
+    {
+      "from": { "content": "\u5386\u6708", "type": "n", "audio": null },
+      "tos": [{ "content": "calendar month", "type": "n" }]
+    },
+    {
+      "from": { "content": "\u65e5\u5386\u9879", "type": "pl", "audio": null },
+      "tos": [{ "content": "calendar items", "type": "pl" }]
+    },
+    {
+      "from": { "content": "\u5386\u4e66", "type": "n", "audio": null },
+      "tos": [{ "content": "almanac", "type": "n" }]
+    },
+    {
+      "from": { "content": "\u904d\u5386", "type": "adj", "audio": null },
+      "tos": [{ "content": "ergodic", "type": "adj" }]
+    },
+    {
+      "from": { "content": "\u5386\u4e86", "type": "v", "audio": null },
+      "tos": [{ "content": "grown from", "type": "v" }]
+    },
+    {
+      "from": {
+        "content": "\u5386\u53f2\u9057\u8ff9",
+        "type": "n",
+        "audio": null
+      },
+      "tos": [{ "content": "remains", "type": "pl" }]
+    },
+    {
+      "from": {
+        "content": "\u65e5\u5386\u9879\u76ee",
+        "type": "n",
+        "audio": null
+      },
+      "tos": [{ "content": "calendar entry", "type": "n" }]
+    },
+    {
+      "from": { "content": "\u9634\u5386", "type": "n", "audio": null },
+      "tos": [{ "content": "almanac", "type": "n" }]
+    },
+    {
+      "from": { "content": "\u7ecf\u5386...", "type": "v", "audio": null },
+      "tos": [{ "content": "undergo sth.", "type": "v" }]
+    },
+    {
+      "from": { "content": "\u7ecf\u5386", "type": "v", "audio": null },
+      "tos": [
+        { "content": "pass", "type": "v" },
+        { "content": "experience", "type": "v" }
+      ]
+    }
+  ]
+}

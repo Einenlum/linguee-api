@@ -1,0 +1,272 @@
+{
+  "query": "money",
+  "words": [
+    {
+      "term": "money",
+      "additionalInformation": null,
+      "type": "noun",
+      "audio":
+        "https://www.linguee.com/mp3/EN_US/97/9726255eec083aa56dc0449a21b33190-101",
+      "translations": [
+        {
+          "term": "argent",
+          "audio":
+            "https://www.linguee.com/mp3/FR/b5/b5c90cf74c2bf3f78a1e48ff332cad6d-106",
+          "type": "m",
+          "alternatives": [],
+          "examples": [
+            {
+              "from": "The lottery winner bought a house with the money.",
+              "to":
+                "Le gagnant de la loterie a achet\u00e9 une maison avec l'argent."
+            },
+            {
+              "from": "My main concern is not money.",
+              "to": "Ma principale pr\u00e9occupation, ce n'est pas l'argent."
+            },
+            {
+              "from": "I'm making money buying and reselling cars.",
+              "to":
+                "Je me fais du fric en achetant et en revendant des voitures."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term": "money",
+      "additionalInformation": null,
+      "type": "noun as adjective",
+      "audio":
+        "https://www.linguee.com/mp3/EN_UK/97/9726255eec083aa56dc0449a21b33190-0",
+      "translations": [
+        {
+          "term": "mon\u00e9taire",
+          "audio":
+            "https://www.linguee.com/mp3/FR/94/941b64a99853de14f86cf6232085924b-300",
+          "type": "adj",
+          "alternatives": [],
+          "examples": []
+        }
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "from": {
+        "content": "money laundering",
+        "type": "n",
+        "audio":
+          "https://www.linguee.com/mp3/EN_US/4e/4e2fc1ee379cc810479191977f31972a-101"
+      },
+      "tos": [{ "content": "blanchiment d'argent", "type": "m" }]
+    },
+    {
+      "from": {
+        "content": "money market",
+        "type": "n",
+        "audio":
+          "https://www.linguee.com/mp3/EN_US/50/50fa9efcf444a86b33ce03fee484cd5c-101"
+      },
+      "tos": [{ "content": "march\u00e9 mon\u00e9taire", "type": "m" }]
+    },
+    {
+      "from": {
+        "content": "seed money",
+        "type": "n",
+        "audio":
+          "https://www.linguee.com/mp3/EN_US/6c/6c4e90ceb508841b15c8cd19ca1f8aca-100"
+      },
+      "tos": [
+        { "content": "capital de d\u00e9part", "type": "m" },
+        { "content": "capital initial", "type": "m" }
+      ]
+    },
+    {
+      "from": {
+        "content": "money market funds",
+        "type": "pl",
+        "audio":
+          "https://www.linguee.com/mp3/EN_US/1f/1ff9d213fac6d9bf2dbb3b8640056eaf-102"
+      },
+      "tos": [
+        { "content": "fonds du march\u00e9 mon\u00e9taire", "type": "pl m" }
+      ]
+    },
+    {
+      "from": { "content": "extra money", "type": "n", "audio": null },
+      "tos": [{ "content": "argent suppl\u00e9mentaire", "type": "m" }]
+    },
+    {
+      "from": { "content": "money management", "type": "n", "audio": null },
+      "tos": [{ "content": "gestion des fonds", "type": "f" }]
+    },
+    {
+      "from": {
+        "content": "public money",
+        "type": "n",
+        "audio":
+          "https://www.linguee.com/mp3/EN_US/ab/ab7f9675073497c2d557c7ef4482ffea-100"
+      },
+      "tos": [{ "content": "deniers publics", "type": "pl m" }]
+    },
+    {
+      "from": {
+        "content": "money exchange",
+        "type": "n",
+        "audio":
+          "https://www.linguee.com/mp3/EN_US/29/29ca666820e714ecfe8d21502d9ffa77-100"
+      },
+      "tos": [{ "content": "conversion des devises", "type": "f" }]
+    },
+    {
+      "from": { "content": "base money", "type": "n", "audio": null },
+      "tos": [{ "content": "monnaie de base", "type": "f" }]
+    },
+    {
+      "from": { "content": "money remittance", "type": "n", "audio": null },
+      "tos": [{ "content": "transmission de fonds", "type": "f" }]
+    },
+    {
+      "from": {
+        "content": "borrowed money",
+        "type": "n",
+        "audio":
+          "https://www.linguee.com/mp3/EN_UK/85/85f77053818e1fd20c36bdd3017147d9-101"
+      },
+      "tos": [{ "content": "argent emprunt\u00e9", "type": "m" }]
+    },
+    {
+      "from": {
+        "content": "dirty money",
+        "type": "n",
+        "audio":
+          "https://www.linguee.com/mp3/EN_UK/59/599025139216cc954fa51bfaf5dd261f-100"
+      },
+      "tos": [{ "content": "argent sale", "type": "m" }]
+    },
+    {
+      "from": {
+        "content": "supply of money",
+        "type": "n",
+        "audio":
+          "https://www.linguee.com/mp3/EN_UK/ec/ecfb2e5ae27fd859626ae4cf17c55136-100"
+      },
+      "tos": [{ "content": "offre de monnaie", "type": "f" }]
+    },
+    {
+      "from": { "content": "private money", "type": "n", "audio": null },
+      "tos": [
+        { "content": "fonds priv\u00e9s", "type": "pl m" },
+        { "content": "argent priv\u00e9", "type": "m" }
+      ]
+    },
+    {
+      "from": { "content": "money collected", "type": "n", "audio": null },
+      "tos": [{ "content": "argent recueilli", "type": "m" }]
+    },
+    {
+      "from": {
+        "content": "money transaction",
+        "type": "n",
+        "audio":
+          "https://www.linguee.com/mp3/EN_UK/b9/b90cf740305c0e72aee53c8e13e85c1c-101"
+      },
+      "tos": [{ "content": "transaction mon\u00e9taire", "type": "f" }]
+    },
+    {
+      "from": { "content": "own money", "type": "n", "audio": null },
+      "tos": [{ "content": "propre argent", "type": "m" }]
+    },
+    {
+      "from": { "content": "money earned", "type": "n", "audio": null },
+      "tos": [{ "content": "argent gagn\u00e9", "type": "m" }]
+    },
+    {
+      "from": {
+        "content": "gift of money",
+        "type": "n",
+        "audio":
+          "https://www.linguee.com/mp3/EN_UK/6d/6d329415de6acc8b0a427491babf9634-100"
+      },
+      "tos": [{ "content": "don en argent", "type": "m" }]
+    },
+    {
+      "from": {
+        "content": "money illusion",
+        "type": "n",
+        "audio":
+          "https://www.linguee.com/mp3/EN_UK/46/462aa9b242b06e3e76706a02ce18a0e0-100"
+      },
+      "tos": [{ "content": "illusion mon\u00e9taire", "type": "f" }]
+    },
+    {
+      "from": { "content": "federal money", "type": "n", "audio": null },
+      "tos": [{ "content": "financement f\u00e9d\u00e9ral", "type": "m" }]
+    },
+    {
+      "from": { "content": "money held", "type": "n", "audio": null },
+      "tos": [{ "content": "argent d\u00e9tenu", "type": "m" }]
+    },
+    {
+      "from": {
+        "content": "money investment",
+        "type": "n",
+        "audio":
+          "https://www.linguee.com/mp3/EN_UK/6e/6e5b7764f4fc5bebe3181d16730dc889-100"
+      },
+      "tos": [{ "content": "investissement mon\u00e9taire", "type": "m" }]
+    },
+    {
+      "from": { "content": "allowance money", "type": "n", "audio": null },
+      "tos": [{ "content": "argent de poche", "type": "m" }]
+    },
+    {
+      "from": { "content": "scriptural money", "type": "n", "audio": null },
+      "tos": [{ "content": "monnaie scripturale", "type": "f" }]
+    },
+    {
+      "from": { "content": "money paper", "type": "n", "audio": null },
+      "tos": [{ "content": "papier monnaie", "type": "m" }]
+    },
+    {
+      "from": { "content": "necessary money", "type": "n", "audio": null },
+      "tos": [{ "content": "argent n\u00e9cessaire", "type": "m" }]
+    },
+    {
+      "from": { "content": "gray money", "type": "n", "audio": null },
+      "tos": [{ "content": "gris argent", "type": "m" }]
+    },
+    {
+      "from": {
+        "content": "creation of money",
+        "type": "n",
+        "audio":
+          "https://www.linguee.com/mp3/EN_UK/ba/ba2887e7a85dc16aed8b21e3aadbaf65-100"
+      },
+      "tos": [{ "content": "cr\u00e9ation de monnaie", "type": "f" }]
+    },
+    {
+      "from": { "content": "money transactions", "type": "pl", "audio": null },
+      "tos": [{ "content": "transactions financi\u00e8res", "type": "pl f" }]
+    },
+    {
+      "from": {
+        "content": "money-market instrument",
+        "type": "n",
+        "audio": null
+      },
+      "tos": [
+        { "content": "instrument du march\u00e9 mon\u00e9taire", "type": "m" }
+      ]
+    },
+    {
+      "from": { "content": "required money", "type": "n", "audio": null },
+      "tos": [{ "content": "argent n\u00e9cessaire", "type": "m" }]
+    },
+    {
+      "from": { "content": "quasi-money", "type": "n", "audio": null },
+      "tos": [{ "content": "quasi-monnaie", "type": "f" }]
+    }
+  ]
+}

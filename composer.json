@@ -1,0 +1,38 @@
+{
+  "name": "einenlum/linguee-api",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Einenlum",
+      "email": "yann.rabiller@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Einenlum\\LingueeApi\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Einenlum\\LingueeApi\\Tests\\": "tests/"
+    }
+  },
+  "scripts": {
+    "test": "phpstan analyse --level=3 src && phpspec run -vvv --ansi && phpunit tests",
+    "cs-fix": "php-cs-fixer fix"
+  },
+  "require": {
+    "php": "^7.1",
+    "kriswallsmith/buzz": "^0.17.1",
+    "symfony/dom-crawler": "^4.2@dev",
+    "symfony/css-selector": "^4.1"
+  },
+  "require-dev": {
+    "phpspec/phpspec": "^5.0",
+    "phpunit/phpunit": "^7.3",
+    "beberlei/assert": "^3.0",
+    "phpstan/phpstan": "^0.10.5",
+    "friendsofphp/php-cs-fixer": "^2.13"
+  }
+}

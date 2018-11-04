@@ -1,0 +1,238 @@
+{
+  "query": "desert",
+  "words": [
+    {
+      "term": "desert",
+      "additionalInformation": null,
+      "type": "noun",
+      "audio":
+        "https://www.linguee.com/mp3/EN_US/3f/3fd6b6210e33bb046e69f256a138e28d-101",
+      "translations": [
+        {
+          "term": "\u043f\u0443\u0441\u0442\u044b\u043d\u044f",
+          "audio": null,
+          "type": "f",
+          "alternatives": [],
+          "examples": [
+            {
+              "from": "The caravan slowly moved across the hot desert.",
+              "to":
+                "\u041a\u0430\u0440\u0430\u0432\u0430\u043d \u043c\u0435\u0434\u043b\u0435\u043d\u043d\u043e \u0448\u0451\u043b \u043f\u043e \u0437\u043d\u043e\u0439\u043d\u043e\u0439 \u043f\u0443\u0441\u0442\u044b\u043d\u0435."
+            },
+            {
+              "from": "There is no shortage of sand in the desert.",
+              "to":
+                "\u0412 \u043f\u0443\u0441\u0442\u044b\u043d\u0435 \u043d\u0435\u0442 \u043d\u0435\u0445\u0432\u0430\u0442\u043a\u0438 \u043f\u0435\u0441\u043a\u0430."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term": "desert",
+      "additionalInformation": null,
+      "type": "adjective",
+      "audio":
+        "https://www.linguee.com/mp3/EN_US/3f/3fd6b6210e33bb046e69f256a138e28d-300",
+      "translations": [
+        {
+          "term": "\u043f\u0443\u0441\u0442\u044b\u043d\u043d\u044b\u0439",
+          "audio": null,
+          "type": "adj",
+          "alternatives": [],
+          "examples": [
+            {
+              "from": "The pirates buried the treasure on a desert island.",
+              "to":
+                "\u041f\u0438\u0440\u0430\u0442\u044b \u0437\u0430\u043a\u043e\u043f\u0430\u043b\u0438 \u0441\u043e\u043a\u0440\u043e\u0432\u0438\u0449\u0430 \u043d\u0430 \u043d\u0435\u043e\u0431\u0438\u0442\u0430\u0435\u043c\u043e\u043c \u043e\u0441\u0442\u0440\u043e\u0432\u0435."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term": "desert",
+      "additionalInformation": "(sb./sth.)",
+      "type": "verb",
+      "audio":
+        "https://www.linguee.com/mp3/EN_US/3f/3fd6b6210e33bb046e69f256a138e28d-200",
+      "translations": [
+        {
+          "term":
+            "\u043e\u0441\u0442\u0430\u0432\u043b\u044f\u0442\u044c \u043a\u043e\u0433\u043e-\u043b./\u0447\u0442\u043e-\u043b.",
+          "audio": null,
+          "type": "v",
+          "alternatives": [],
+          "examples": []
+        }
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "from": { "content": "desert region", "type": "n", "audio": null },
+      "tos": [
+        {
+          "content":
+            "\u043f\u0443\u0441\u0442\u044b\u043d\u043d\u044b\u0439 \u0440\u0435\u0433\u0438\u043e\u043d",
+          "type": "m"
+        }
+      ]
+    },
+    {
+      "from": {
+        "content": "salt desert",
+        "type": "n",
+        "audio":
+          "https://www.linguee.com/mp3/EN_UK/3c/3c5dff85ad86d9543553ecc354075dba-100"
+      },
+      "tos": [
+        {
+          "content":
+            "\u0441\u043e\u043b\u044f\u043d\u0430\u044f \u043f\u0443\u0441\u0442\u044b\u043d\u044f",
+          "type": "f"
+        }
+      ]
+    },
+    {
+      "from": { "content": "Sahara desert", "type": "n", "audio": null },
+      "tos": [
+        {
+          "content":
+            "\u043f\u0443\u0441\u0442\u044b\u043d\u044f \u0421\u0430\u0445\u0430\u0440\u0430",
+          "type": "f"
+        }
+      ]
+    },
+    {
+      "from": {
+        "content": "desert sand",
+        "type": "n",
+        "audio":
+          "https://www.linguee.com/mp3/EN_UK/20/202dd1ea4336e2bfcd6a2f8201b41260-100"
+      },
+      "tos": [
+        {
+          "content":
+            "\u043f\u0435\u0441\u043e\u043a \u043f\u0443\u0441\u0442\u044b\u043d\u0438",
+          "type": "m"
+        }
+      ]
+    },
+    {
+      "from": {
+        "content": "sandy desert",
+        "type": "n",
+        "audio":
+          "https://www.linguee.com/mp3/EN_UK/5d/5dddfed2ae08d543ba34f395f3efe566-100"
+      },
+      "tos": [
+        {
+          "content":
+            "\u043f\u0435\u0441\u0447\u0430\u043d\u0430\u044f \u043f\u0443\u0441\u0442\u044b\u043d\u044f",
+          "type": "f"
+        }
+      ]
+    },
+    {
+      "from": {
+        "content": "desert island",
+        "type": "n",
+        "audio":
+          "https://www.linguee.com/mp3/EN_US/f2/f240adac703a912732e12ffbb21dec8f-100"
+      },
+      "tos": [
+        {
+          "content":
+            "\u043d\u0435\u043e\u0431\u0438\u0442\u0430\u0435\u043c\u044b\u0439 \u043e\u0441\u0442\u0440\u043e\u0432",
+          "type": "m"
+        },
+        {
+          "content":
+            "\u0431\u0435\u0437\u043b\u044e\u0434\u043d\u044b\u0439 \u043e\u0441\u0442\u0440\u043e\u0432",
+          "type": "m"
+        }
+      ]
+    },
+    {
+      "from": { "content": "desert safari", "type": "n", "audio": null },
+      "tos": [
+        {
+          "content":
+            "\u0441\u0430\u0444\u0430\u0440\u0438 \u043f\u043e \u043f\u0443\u0441\u0442\u044b\u043d\u0435",
+          "type": "nt"
+        }
+      ]
+    },
+    {
+      "from": {
+        "content": "desert environment",
+        "type": "n",
+        "audio":
+          "https://www.linguee.com/mp3/EN_UK/4f/4fd2fbb34bc07f1b18415585eb9f3767-100"
+      },
+      "tos": [
+        {
+          "content":
+            "\u0443\u0441\u043b\u043e\u0432\u0438\u044f \u043f\u0443\u0441\u0442\u044b\u043d\u0438",
+          "type": "pl"
+        }
+      ]
+    },
+    {
+      "from": {
+        "content": "desert landscape",
+        "type": "n",
+        "audio":
+          "https://www.linguee.com/mp3/EN_UK/d4/d40263894f43102b39a3321dc21db20f-100"
+      },
+      "tos": [
+        {
+          "content":
+            "\u043f\u0443\u0441\u0442\u044b\u043d\u043d\u044b\u0439 \u043b\u0430\u043d\u0434\u0448\u0430\u0444\u0442",
+          "type": "m"
+        }
+      ]
+    },
+    {
+      "from": { "content": "desert climate", "type": "n", "audio": null },
+      "tos": [
+        {
+          "content":
+            "\u043a\u043b\u0438\u043c\u0430\u0442 \u043f\u0443\u0441\u0442\u044b\u043d\u044c",
+          "type": "m"
+        },
+        {
+          "content":
+            "\u043a\u043b\u0438\u043c\u0430\u0442 \u043f\u0443\u0441\u0442\u044b\u043d\u0438",
+          "type": "m"
+        },
+        {
+          "content":
+            "\u043f\u0443\u0441\u0442\u044b\u043d\u043d\u044b\u0439 \u043a\u043b\u0438\u043c\u0430\u0442",
+          "type": "m"
+        }
+      ]
+    },
+    {
+      "from": { "content": "desert area", "type": "n", "audio": null },
+      "tos": [
+        {
+          "content":
+            "\u0431\u0435\u0437\u043b\u044e\u0434\u043d\u044b\u0439 \u0440\u0430\u0439\u043e\u043d",
+          "type": "m"
+        },
+        {
+          "content":
+            "\u043f\u0443\u0441\u0442\u044b\u043d\u043d\u0430\u044f \u0437\u043e\u043d\u0430",
+          "type": "f"
+        },
+        {
+          "content":
+            "\u043f\u0443\u0441\u0442\u044b\u043d\u043d\u0430\u044f \u043c\u0435\u0441\u0442\u043d\u043e\u0441\u0442\u044c",
+          "type": "f"
+        }
+      ]
+    }
+  ]
+}
