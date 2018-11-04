@@ -259,3 +259,15 @@ Tested thanks to PHPStan, PHPSpec and PHPUnit.
 To launch the tests:
 
 `composer test`
+
+## Coding Standards
+
+Coding Standards are checked and fixed thanks to PHP-CS-Fixer. To fix your code, just run composer cs-fix.
+
+## Contributing
+
+Please, feel free to contribute and improve this project.
+
+## License
+
+MIT
