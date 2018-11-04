@@ -1,5 +1,9 @@
 # Linguee API
 
+[![CircleCI](https://circleci.com/gh/Einenlum/linguee-api.svg?style=svg)](https://circleci.com/gh/Einenlum/linguee-api)
+[![Latest Stable Version](https://poser.pugx.org/einenlum/linguee-api/v/stable)](https://packagist.org/packages/einenlum/linguee-api)
+[![Latest Unstable Version](https://poser.pugx.org/einenlum/linguee-api/v/unstable)](https://packagist.org/packages/einenlum/linguee-api)
+
 Ask linguee anything. Heavily inspired by this [JS project](https://github.com/felipe-augusto/linguee).
 Linguee has no API. This is a PHP library to send an HTTP request to Linguee and fetch the response (it populates a `Einenlum\LingueeApi\Response\DTO\Response` object and can be serialized to JSON).
 
