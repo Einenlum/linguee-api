@@ -71,10 +71,10 @@ class Translations implements TranslationsInterface
         $getAlternatives = function () use ($translationDescription) {
             $getAlternative = function ($altTagContainer) {
                 $termContainer = $altTagContainer->filter('.formLink');
-                $term = $termContainer->getNode(0) ? $termContainer->getText() : null;
+                $term = $termContainer->getNode(0) ? $termContainer->text() : null;
 
                 $typeContainer = $altTagContainer->filter('.tag_type');
-                $type = $typeContainer->getNode(0) ? $typeContainer->getText() : null;
+                $type = $typeContainer->getNode(0) ? $typeContainer->text() : null;
 
                 return new AlternativeDTO($term, $type);
             };
