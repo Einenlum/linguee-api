@@ -2,7 +2,9 @@ version: 2
 jobs:
   build:
     docker:
-      - image: circleci/php:7.1-browsers
+      - image: cimg/php:7.4-browsers
+      - image: cimg/php:8.0-browsers
+      - image: cimg/php:8.1-browsers
       
     working_directory: ~/repo
 

@@ -12,6 +12,7 @@ use Einenlum\LingueeApi\Query\UrlBuilder;
 use Einenlum\LingueeApi\Response\Transformer as ResponseTransformer;
 use Einenlum\LingueeApi\Config\Language as LanguageConfig;
 use Einenlum\LingueeApi\Factory\ResponseTransformer as ResponseTransformerFactory;
+use Nyholm\Psr7\Factory\Psr17Factory;
 
 abstract class Factory
 {
@@ -19,7 +20,8 @@ abstract class Factory
 
     private static function createClient(): Client
     {
-        $browser = new Browser();
+        $client = new FileGetContents(new Psr17Factory());
+        $browser = new Browser($client, new Psr17Factory());
 
         return new Client($browser);
     }
