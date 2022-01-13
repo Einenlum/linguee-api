@@ -42,7 +42,7 @@ class TransformerTest extends TestCase
         ));
     }
 
-    public function setUp()
+    public function setUp(): void
     {
         $urlBuilder = new UrlBuilder(
             'https://www.linguee.com',
