@@ -13,11 +13,10 @@ use Einenlum\LingueeApi\Contract\Linguee as LingueeInterface;
 
 class Linguee implements LingueeInterface
 {
-    private $responseTransformer;
-    private $client;
-    private $urlBuilder;
-    private $languageConfig;
-    private $serializer;
+    private ResponseTransformer $responseTransformer;
+    private Client $client;
+    private UrlBuilder $urlBuilder;
+    private LanguageConfig $languageConfig;
 
     public function __construct(
         UrlBuilder $urlBuilder,

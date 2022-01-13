@@ -1,0 +1,81 @@
+{
+  "query": "vernachl\u00e4ssigen",
+  "words": [
+    {
+      "term": "vernachl\u00e4ssigen",
+      "additionalInformation": null,
+      "type": "verb",
+      "audio": "https://www.linguee.com/mp3/DE/cb/cbabe06c41c69beb2d781ded3d6b80bd-201",
+      "translations": [
+        {
+          "term": "neglect",
+          "audio": "https://www.linguee.com/mp3/EN_US/53/53b2a33ab901efc1324930e9e3a96833-200",
+          "type": "v",
+          "alternatives": [
+              {
+                  "term": "neglected",
+                  "type": null
+              },
+              {
+                  "term": "neglected",
+                  "type": null
+              }
+          ],
+          "examples": [
+            {
+              "from": "Wenn er viel Arbeit hat, vernachl\u00e4ssigt er sein Privatleben.",
+              "to": "When busy at work, he neglects his private life."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term": "etw.Akk vernachl\u00e4ssigen",
+      "additionalInformation": null,
+      "type": "verb",
+      "audio": "https://www.linguee.com/mp3/DE/cb/cbabe06c41c69beb2d781ded3d6b80bd-200",
+      "translations": [
+        {
+          "term": "let sth. slide",
+          "audio": "https://www.linguee.com/mp3/EN_UK/7a/7a1062ceb8f5af9af72662ddfa05b904-200",
+          "type": "v",
+          "alternatives": [],
+          "examples": []
+        }
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "from": {
+        "content": "zu vernachl\u00e4ssigen",
+        "type": null,
+        "audio": "https://www.linguee.com/mp3/DE/41/4109a24cbb70d8f429ab559bb01d7ecc-0"
+      },
+      "tos": [
+          {
+              "content": "negligible",
+              "type": "adj"
+          },
+          {
+              "content": "neglectable",
+              "type": "adj"
+          }
+      ]
+    },
+    {
+      "from": {
+        "content": "seine Pflicht vernachl\u00e4ssigen",
+        "type": "v",
+        "audio": null
+      },
+      "tos": [
+          {
+              "content": "neglect one's duty",
+              "type": "v"
+          }
+      ]
+    }
+  ]
+}

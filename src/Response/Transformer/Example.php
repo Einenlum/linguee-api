@@ -55,7 +55,7 @@ class Example implements ExampleInterface
     {
         $fromContainer = $exampleContainer->filter('.lemma_desc .tag_lemma');
 
-        $getAudio = function () use ($fromContainer) {
+        $getAudio = function ($fromContainer) {
             $audioContainer = $fromContainer->filter('a.audio');
             $audioPath = $audioContainer->getNode(0) ? $audioContainer->attr('id') : null;
 
@@ -63,11 +63,12 @@ class Example implements ExampleInterface
         };
 
         $content = $fromContainer->filter('a')->text();
-        $type = $fromContainer->filter('.tag_type')->text() ?? null;
+        $typeContainer = $fromContainer->filter('.tag_type');
+        $type = $typeContainer->count() ? $typeContainer->text() : null;
 
         $from = new FromDTO($content);
         $from->type = $type;
-        $from->audio = $getAudio();
+        $from->audio = $getAudio($fromContainer);
 
         return $from;
     }

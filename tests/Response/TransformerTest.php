@@ -4,43 +4,14 @@ declare(strict_types=1);
 
 namespace Einenlum\LingueeApi\Tests\Response;
 
+use Einenlum\LingueeApi\Response\Transformer;
 use PHPUnit\Framework\TestCase;
 use Einenlum\LingueeApi\Factory\ResponseTransformer as ResponseTransformerFactory;
 use Einenlum\LingueeApi\Query\UrlBuilder;
 
 class TransformerTest extends TestCase
 {
-    private $responseTransformer;
-    private $tests = [
-        ['path' => 'money-eng-fra', 'query' => 'money'],
-        ['path' => 'desert-eng-rus', 'query' => 'desert'],
-        ['path' => 'history-chi-eng', 'query' => '历']
-    ];
-
-    private function getExampleDir($path): string
-    {
-        return sprintf('%s/../examples/%s', __DIR__, $path);
-    }
-
-    private function getInput(string $path)
-    {
-        $encodeToUtf8 = function ($string) {
-            return mb_convert_encoding($string, "UTF-8", mb_detect_encoding($string, "UTF-8, ISO-8859-1, ISO-8859-15", true));
-        };
-
-        return $encodeToUtf8(file_get_contents(sprintf(
-            '%s/input.html',
-            $this->getExampleDir($path)
-        )));
-    }
-
-    private function getExpected(string $path)
-    {
-        return file_get_contents(sprintf(
-            '%s/expected.json',
-            $this->getExampleDir($path)
-        ));
-    }
+    private Transformer $responseTransformer;
 
     public function setUp(): void
     {
@@ -52,17 +23,47 @@ class TransformerTest extends TestCase
         $this->responseTransformer = ResponseTransformerFactory::create($urlBuilder);
     }
 
-    public function test()
+    /** @dataProvider getCases */
+    public function test(string $path, string $query)
     {
-        foreach ($this->tests as $line) {
-            $input = $this->getInput($line['path']);
-            $expected = $this->getExpected($line['path']);
-            $output = $this->responseTransformer->transform($input, $line['query']);
+        $input = $this->getInput($path);
+        $expected = $this->getExpected($path);
+        $output = $this->responseTransformer->transform($input, $query);
 
-            $expectedArray = json_decode($expected, true);
-            $outputArray = $output->toArray();
+        $expectedArray = json_decode($expected, true);
+        $outputArray = $output->toArray();
 
-            $this->assertEquals($expectedArray, $outputArray);
-        }
+        $this->assertEquals($expectedArray, $outputArray);
+    }
+
+    public function getCases(): array
+    {
+        return [
+            'Money - English to French' => ['money-eng-fra', 'money'],
+            'Desert - English to Russian' => ['desert-eng-rus', 'desert'],
+            '历 - Chinese to English' => ['history-chi-eng', '历'],
+            'Vernachlässigen - German to English' => ['vernachlassigen-ger-eng', 'vernachlässigen'],
+        ];
+    }
+
+    private function getExampleDir($path): string
+    {
+        return sprintf('%s/../examples/%s', __DIR__, $path);
+    }
+
+    private function getInput(string $path): string
+    {
+        return file_get_contents(sprintf(
+            '%s/input.html',
+            $this->getExampleDir($path)
+        ));
+    }
+
+    private function getExpected(string $path): string
+    {
+        return file_get_contents(sprintf(
+            '%s/expected.json',
+            $this->getExampleDir($path)
+        ));
     }
 }
